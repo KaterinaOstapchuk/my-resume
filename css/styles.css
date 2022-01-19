@@ -1,0 +1,261 @@
+body {
+  font-family: "Montserrat", sans-serif;
+  background: #e5e5e5;
+}
+/* main styles */
+
+.main {
+  display: flex;
+  flex-direction: row-reverse;
+  width: 1200px;
+  margin: 0 auto;
+}
+/* main-content */
+.main-content {
+  background-color: #ffffff;
+  box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
+  padding: 105px 90px;
+}
+
+/* abour style  */
+.about {
+  margin-bottom: 40px;
+}
+
+.about-position {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 17px;
+  color: #000000;
+  margin-bottom: 20px;
+}
+
+.about-name {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 45px;
+  line-height: 55px;
+  color: #000000;
+  margin-bottom: 25px;
+}
+
+.about-description {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  color: #595959;
+  width: 400px;
+}
+
+/* project styles */
+.projects {
+  /* margin: 100px 90px 300px 60px;
+  margin: 50px;
+  margin: 100px 50px; */
+}
+.worktitle {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 27px;
+  color: #000000;
+  margin-bottom: 10px;
+}
+.projects-item {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 24px;
+  color: #000000;
+}
+.project,
+.project-link {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  color: #595959;
+}
+.project-bracket {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  color: #000000;
+}
+.projects-list {
+  padding: 0px;
+  margin-left: 15px;
+}
+.project-link {
+  margin-left: 15px;
+}
+
+/* work styles */
+.work {
+  /* padding: 100px 40px 50px 20px;
+
+  padding: 50px;
+
+  padding: 50px 100px; */
+}
+.work-position {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 20px;
+  color: #000000;
+  margin-bottom: 10px;
+}
+.organizzation {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 20px;
+  color: #fb6d3a;
+}
+.period {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 15px;
+  color: #a8a8a8;
+  margin-bottom: 10px;
+}
+.line {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 15px;
+  color: #000000;
+}
+.work-list {
+  padding: 0;
+  margin-left: 15px;
+}
+.work-list-item {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  color: #595959;
+}
+
+/* education styles  */
+.education {
+}
+.educationtitle {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 27px;
+  color: #000000;
+  margin-bottom: 10px;
+}
+.univer {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 20px;
+  color: #fb6d3a;
+  margin-bottom: 10px;
+}
+.management {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 17px;
+  color: #000000;
+  margin-bottom: 10px;
+}
+
+/* sidebar */
+.sidebar {
+  padding-top: 40px;
+  background-color: #1e2939;
+  width: 370px;
+}
+.photo {
+  width: 370px;
+  margin-bottom: 50px;
+}
+.contacts,
+.tech-skills,
+.soft-skills {
+  margin-left: 40px;
+}
+.contacts {
+  margin-bottom: 50px;
+}
+.tech-skills {
+  margin-bottom: 45px;
+}
+
+.sidebar-title {
+  color: #ffffff;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 27px;
+  margin-bottom: 10px;
+}
+.contacts-type {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 24px;
+  color: #ffffff;
+}
+.contacts-link {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  color: #ffffff;
+  margin-right: 10px;
+}
+.techskills-list,
+.softskills-list {
+  padding: 0;
+  margin-left: 17px;
+}
+.techskills-item {
+  color: #fb6d3a;
+}
+.techskills-text {
+  color: #ffffff;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+}
+.softskills-item {
+  color: #fb6d3a;
+}
+.softskills-text {
+  color: #ffffff;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+}
